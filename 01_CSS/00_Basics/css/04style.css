@@ -1,4 +1,26 @@
+/* We can also import font family in css file */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
 /* 
-Typography is the wat that text
+Typography is the what that text
 is arranged and presented
  */
+
+body {
+  padding: 10%;
+  font-size: 1.5rem;
+}
+
+/* * All parent elements can inherit font-size */
+/* ! but form elements can't inherit directly from parent */
+input,
+button {
+  font: inherit;
+}
+
+p {
+  /* line-height: 2;
+  word-spacing: 0.5em;
+  font-weight: lighter; */
+  font-family: "Roboto", sans-serif;
+}
