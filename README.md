@@ -1,2 +1,2 @@
 # Front-End-Dev-Lessons
- Mine front-end developments lessons scripts.
+The repository where I keep scripts from my front-end development journey ٩(˘◡˘)۶
