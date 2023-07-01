@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&display=swap');
+
+/* Lesson Re-cap*/
+/** We can create columns and set how much px will show on the screen */
+/** If something couldn't change just make sure use SPECIFITY CALCULATOR */
+/* ! Specifity calculator will show which element is priorty */
+
+
+body{
+    font-family: 'Aleo', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.columns{
+    /* column-count: 4;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 2px solid #333;
+}
+
+.columns p{
+    margin-top: 0;
+}
+
+.columns h2{
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    break-inside: avoid;
+}
+
+.columns .quote{
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+
+/* Not breaking the words! */
+.nowrap{
+    white-space: nowrap;
+}
